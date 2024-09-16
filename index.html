@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Trip to India</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>My Incredible Summer Trip to India</h1>
+        <p>Exploring the vibrant culture, food, and landscapes of India.</p>
+    </header>
+
+    <main>
+        <section class="section-container" id="intro">
+            <aside>
+                <h2>Introduction</h2>
+                <p>Embarking on a journey to India was a dream come true. From the moment I set foot on this vibrant
+                    and diverse land, I was captivated by its rich tapestry of culture, history, and natural beauty.
+                    Each region has its own distinct flavor, making every part of the journey a new discovery.
+                    Whether it was exploring historical landmarks, indulging in diverse cuisines, or simply soaking
+                    in the breathtaking landscapes, every moment of this adventure was a celebration of India’s
+                    incredible diversity and charm.</p>
+            </aside>
+            <img src="photos/udaipur.jpg" alt="udaipur monument">
+        </section>
+
+
+
+        <section class="section-container" id="highlights">
+            <h2>Trip Highlights</h2>
+            <aside>
+                <article>
+                    <img src="photos/taj_mahal.jpg" alt="Taj Mahal">
+                    <h3>Exploring the Taj Mahal</h3>
+                    <p>The Taj Mahal, an iconic symbol of love, is a stunning white marble mausoleum located in Agra.
+                        Its intricate carvings and symmetrical gardens make it a must-visit landmark.</p>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">Know more..</a>
+                    </nav>
+                </article>
+                <article>
+                    <img src="photos/mumbai_street_food.jpg" alt="Street Food in Mumbai">
+                    <h3>Experiencing the Street Food in Mumbai</h3>
+                    <p>Mumbai is famous for its vibrant street food culture. From spicy pav bhaji to sweet vada pav, the
+                        city offers a culinary adventure that's a feast for the senses.
+                    </p>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Cuisine_of_Mumbai" target="_blank">Know more..</a>
+                    </nav>
+                </article>
+                <article>
+                    <img src="photos/kerala_backwaters.jpeg" alt="Backwaters of Kerala">
+                    <h3>Relaxing in the Backwaters of Kerala</h3>
+                    <p>The serene backwaters of Kerala provide a tranquil escape. Enjoy a houseboat ride through lush
+                        greenery and experience the peaceful beauty of this unique landscape.
+                    </p>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Backwaters_of_Kerala" target="_blank">Know more..</a>
+                    </nav>
+                </article>
+                <article>
+                    <img src="photos/jaipur_temples.jpg" alt="Temples in Jaipur">
+                    <h3>Visiting Ancient Temples in Jaipur</h3>
+                    <p>Jaipur, known as the Pink City, boasts magnificent ancient temples such as the Amber Fort and the
+                        Hawa Mahal. These historical sites offer insights into India's rich cultural heritage.</p>
+                    <nav>
+                        <a href="https://en.wikipedia.org/wiki/Jaipur" target="_blank">Know more..</a>
+                    </nav>
+                </article>
+            </aside>
+        </section>
+
+        <section class="section-container" id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Thumbnail images -->
+                <a href="photos/gal1.jpg" class="lightbox" data-title="Street food">
+                    <img src="photos/gal1.jpg" alt="food">
+                </a>
+                <a href="photos/gal2.jpg" class="lightbox" data-title="Street food">
+                    <img src="photos/gal2.jpg" alt="food">
+                </a>
+                <a href="photos/gal3.jpg" class="lightbox" data-title="Taj Mahal">
+                    <img src="photos/gal3.jpg" alt="Taj Mahal">
+                </a>
+                <a href="photos/gal4.jpg" class="lightbox" data-title="Taj Mahal">
+                    <img src="photos/gal4.jpg" alt="Taj Mahal">
+                </a>
+                <a href="photos/gal5.jpg" class="lightbox" data-title="Taj Mahal">
+                    <img src="photos/gal5.jpg" alt="Taj Mahal">
+                </a>
+                <a href="photos/gal6.jpg" class="lightbox" data-title="Taj Mahal">
+                    <img src="photos/gal6.jpg" alt="backwater">
+                </a>
+                <a href="photos/gal7.jpg" class="lightbox" data-title="Kerala">
+                    <img src="photos/gal7.jpg" alt="backwater">
+                </a>
+                <a href="photos/gal8.jpg" class="lightbox" data-title="Kerala">
+                    <img src="photos/gal8.jpg" alt="backwater">
+                </a>
+                <a href="photos/gal9.jpg" class="lightbox" data-title="Backwaters">
+                    <img src="photos/gal9.jpg" alt="Udaipur">
+                </a>
+                <a href="photos/gal10.jpg" class="lightbox" data-title="Jaipur">
+                    <img src="photos/gal10.jpg" alt="Udaipur">
+                </a>
+                <a href="photos/gal11.jpg" class="lightbox" data-title="Udaipur">
+                    <img src="photos/gal11.jpg" alt="Udaipur">
+                </a>
+                <a href="photos/gal12.jpg" class="lightbox" data-title="Fort">
+                    <img src="photos/gal12.jpg" alt="Taj Mahal">
+                </a>
+            </div>
+            <!-- Lightbox container -->
+            <div id="lightbox" class="lightbox-overlay">
+                <span id="close"></span>
+                <button id="prev" class="nav-button">&#10094;</button>
+                <img id="lightbox-image" src="" alt="">
+                <button id="next" class="nav-button">&#10095;</button>
+                <div id="lightbox-caption"></div>
+            </div>
+        </section>
+
+        <section class="section-container" id="comments">
+            <h2>Leave a Comment</h2>
+            <textarea id="commentBox" placeholder="Write your comment here..."></textarea>
+            <button id="submitComment">Submit</button>
+            <div id="commentsSection"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Travel Blog</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
